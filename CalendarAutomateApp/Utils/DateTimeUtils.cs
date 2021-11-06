@@ -15,5 +15,10 @@ namespace CalendarAutomateApp.Utils
         {
             return DateTimeOffset.ParseExact(dateTimeText, new [] { "o", "yyyy-MM-dd HH:mm zzz" }, CultureInfo.InvariantCulture, DateTimeStyles.AllowWhiteSpaces | DateTimeStyles.AssumeUniversal);
         }
+
+        public static TimeSpan ToTime(this string timeText)
+        {
+            return TimeSpan.ParseExact(timeText, @"hh\:mm", CultureInfo.InvariantCulture);
+        }
     }
 }
