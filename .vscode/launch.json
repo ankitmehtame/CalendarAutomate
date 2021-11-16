@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/CalendarAutomateApp/bin/Debug/netcoreapp3.1/CalendarAutomateApp.dll",
+            "program": "${workspaceFolder}/CalendarAutomate.WebApi/bin/Debug/net6.0/CalendarAutomate.WebApi.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/CalendarAutomateApp",
+            "cwd": "${workspaceFolder}/CalendarAutomate.WebApi",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
